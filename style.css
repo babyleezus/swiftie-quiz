@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 500px;
-    height: 600px;
+    height: 700px;
     margin: auto;
     padding: 20px;
     background-color: aquamarine;
@@ -36,5 +36,28 @@ body {
     border: none;
     border-radius: 20px;
     margin: 10px;
+    font-family: inherit;
+    color: aquamarine;
+}
+
+.choices button:hover {
+    opacity: 0.5;
+}
+
+.start-next-btn{
+    width: 100px;
+    height: 40px;
+    text-align:center;
+    background-color:cornflowerblue;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    font-family: inherit;
+    color: aquamarine;
+}
+
+.start-next-btn:hover {
+    opacity: 0.5;
+    
 }
 

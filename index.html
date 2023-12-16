@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <title>How well do you know Taylor Swift lyrics?</title>
 </head>
 <body>
     <div class="quiz-body">
-        <h1>How well do you know the lyrics to Taylor Swift's songs?</h1>
-        <h2>Take this quiz and find out how much of a swiftie you are!</h2>
+        <h1 id="heading">How well do you know the lyrics to Taylor Swift's songs?</h1>
+        <h2 id="tagline">Take this quiz and find out how much of a swiftie you are!</h2>
+        <div class="questions">Question :</div>
+        <div class="score">Score : </div>
         <div class="choices">
             <button id="a">A: </button>
             <button id="b">B: </button>
@@ -17,6 +20,9 @@
             <button id="d">D: </button>
             <button id="e">E: </button>
         </div>
+        <button class="start-next-btn" id="start-btn"> Start </button>
+        <button class= "start-next-btn" id="next-btn"> Next question </button>
+
     </div>
 </body>
 </html>
